@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 10em;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        button{
+            width: 600px;
+            background-color: goldenrod;
+            height: 150px;
+            border-radius: 20px;
+            font-size: 70px;
+            font-weight: bold;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="message">Do You Love Me 💕?</h1>
+    <button onclick="propose()">Yes</button>
+    <button onclick="propose()">Of Course, Yes</button>
+    <script>
+        function propose(){
+            var msg = 'I Love You TOO 💚';
+            document.getElementById('message').innerText = msg;
+        }
+    </script>
+</body>
+</html>
