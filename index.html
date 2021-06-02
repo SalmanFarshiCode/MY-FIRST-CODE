@@ -13,21 +13,23 @@
             text-align: center;
         }
         button{
-            width: 600px;
+            width: 200px;
             background-color: goldenrod;
             height: 150px;
             border-radius: 20px;
             font-size: 70px;
             font-weight: bold;
             margin: 30px;
+        }
+        .text{
             text-align: left;
         }
     </style>
 </head>
 <body>
     <h1 id="message">Do You Love Me 💕?</h1>
-    <button onclick="propose()">Yes</button>
-    <button onclick="propose()">Of Course, Yes</button>
+    <button class="text" onclick="propose()">Yes</button>
+    <button class="text" onclick="propose()">Of Course, Yes</button>
     <script>
         function propose(){
             var msg = 'I Love You TOO 💚';
